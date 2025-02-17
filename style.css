@@ -1,4 +1,38 @@
+/* * {
+    border: 1px solid red;
+} */
+
 body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
     background: url('/images/background.svg') no-repeat center center fixed;
     background-size: cover;
+}
+
+header {
+   text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    gap: 10px; 
+    padding: 15px;
+}
+
+.buttons button {
+    border-radius: 5px; 
+    padding: 12px 24px; 
+    background: url('/images/button-nav.svg') no-repeat center center;
+    background-size: 100px 40px; 
+    cursor: pointer; 
+    text-align: center; 
+    margin: 10px 0; 
+    border: none; 
 }
