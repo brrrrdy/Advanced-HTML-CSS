@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     height: 100vh;
     margin: 0;
-    background: url('/images/background.svg') no-repeat center center fixed;
+    background: url('images/background.svg') no-repeat center center fixed; 
     background-size: cover;
 }
 
@@ -29,7 +29,7 @@ header {
 .buttons button {
     border-radius: 5px; 
     padding: 12px 24px; 
-    background: url('/images/button-nav.svg') no-repeat center center;
+    background: url('images/button-nav.svg') no-repeat center center; 
     background-size: 100px 40px; 
     cursor: pointer; 
     text-align: center; 
