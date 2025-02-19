@@ -1,38 +1,54 @@
-* {
-    border: 1px solid red;
-}
+/* * {
+  border: 1px solid red;
+} */
 
 body {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    margin: 0;
-    background: url('images/background.svg') no-repeat center center fixed; 
-    background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  background: url("images/background.svg") no-repeat center center fixed;
+  background-size: cover;
 }
 
 header {
-   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "Bangers", sans-serif;
+  padding: 10px;
+}
+
+.topbox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
 }
 
 .buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; 
-    gap: 10px; 
-    padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .buttons button {
-    border-radius: 5px; 
-    padding: 12px 24px; 
-    background: url('images/button-nav.svg') no-repeat center center; 
-    background-size: 100px 40px; 
-    cursor: pointer; 
-    text-align: center; 
-    margin: 10px 0; 
-    border: none; 
+  border-radius: 5px;
+  padding: 12px 24px;
+  background: url("images/button-nav.svg") no-repeat center center;
+  background-size: 100px 40px;
+  cursor: pointer;
+  text-align: center;
+  margin: 10px 0;
+  border: none;
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 20px;
 }
