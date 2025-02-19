@@ -1,6 +1,6 @@
-/* * {
+* {
   border: 1px solid red;
-} */
+}
 
 body {
   display: flex;
@@ -17,7 +17,7 @@ header {
   align-items: center;
   font-size: 2rem;
   font-family: "Bangers", sans-serif;
-  padding: 10px;
+  padding-top: 30px;
 }
 
 .topbox {
