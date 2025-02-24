@@ -1,30 +1,3 @@
-@font-face {
-  font-family: "Alef";
-  src: url("fonts/Alef-Bold.woff2") format("woff2"),
-    url("fonts/Alef-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Alef";
-  src: url("fonts/Alef-Regular.woff2") format("woff2"),
-    url("fonts/Alef-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Amagro";
-  src: url("fonts/Amagro-bold.woff2") format("woff2"),
-    url("fonts/Amagro-bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
 html {
   font-size: 10px;
   margin: 0;
@@ -40,22 +13,26 @@ body {
 /* Typography */
 
 h1 {
-  font-size: 3.2rem;
+  font-size: 4rem;
 }
 
 h2 {
-  font-size: 2.4rem;
+  font-size: 3rem;
 }
 
 h1,
 h2 {
-  font-family: "amagro", sans-serif;
-  letter-spacing: 0.2rem;
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: italic;
+  font-variation-settings: "wdth" 100;
 }
 
 p {
   font-size: 1.4rem;
   line-height: 1.6;
   word-spacing: 0.6rem;
-  font-family: "alef", sans-serif;
+  letter-spacing: 0.1rem;
+  font-family: "Raleway", sans-serif;
 }
