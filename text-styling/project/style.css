@@ -99,6 +99,29 @@ ol {
   letter-spacing: 0.05rem;
 }
 
+.tick-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tick-list li {
+  position: relative;
+  padding-left: 30px;
+}
+
+.tick-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  /height: 20px;
+  background-image: url("images/check-circle.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 /* LINKS */
 
 a:link {
@@ -107,4 +130,30 @@ a:link {
 }
 a:visited {
   color: #cc9999;
+}
+
+a:hover,
+a:focus {
+  color: #a66;
+  text-decoration: none;
+}
+
+a:active {
+  color: #a66;
+  text-decoration: underline;
+}
+
+/* EXTERNAL LINKS */
+
+a[href^="http"]:not([href*="index.html"])::after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-image: url("images/external-link-52.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 5px;
+  vertical-align: middle;
 }
