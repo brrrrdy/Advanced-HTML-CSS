@@ -70,11 +70,25 @@ html {
   font-size: 10px;
 }
 
+/* HEADERS */
+
 h1,
 h2 {
   font-family: "LMRoman10", sans-serif;
   font-size: 3rem;
+  letter-spacing: 0.3rem;
 }
+
+section > h1 + p,
+section > h2 + p {
+  text-indent: 20px;
+}
+
+header {
+  text-align: center;
+}
+
+/*BODY TEXT */
 
 p,
 ul,
@@ -82,4 +96,15 @@ ol {
   font-family: "aller", sans-serif;
   font-size: 1.2rem;
   line-height: 1.8;
+  letter-spacing: 0.05rem;
+}
+
+/* LINKS */
+
+a:link {
+  color: #a66;
+  text-decoration: underline;
+}
+a:visited {
+  color: #cc9999;
 }
