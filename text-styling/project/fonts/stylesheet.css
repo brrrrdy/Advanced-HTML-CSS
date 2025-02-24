@@ -1,9 +1,171 @@
 @font-face {
-    font-family: 'Abril Fatface';
-    src: url('AbrilFatface-Regular.woff2') format('woff2'),
-        url('AbrilFatface-Regular.woff') format('woff');
+    font-family: 'LMRoman10';
+    src: url('LMRoman10-BoldItalic.woff2') format('woff2'),
+        url('LMRoman10-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aller Display';
+    src: url('AllerDisplay.woff2') format('woff2'),
+        url('AllerDisplay.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('Aller-Italic.woff2') format('woff2'),
+        url('Aller-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('Aller-LightItalic.woff2') format('woff2'),
+        url('Aller-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('Aller-BoldItalic.woff2') format('woff2'),
+        url('Aller-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LMRoman10';
+    src: url('LMRoman10-Bold.woff2') format('woff2'),
+        url('LMRoman10-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('Aller-Bold.woff2') format('woff2'),
+        url('Aller-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('Aller.woff2') format('woff2'),
+        url('Aller.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('Aller-Light.woff2') format('woff2'),
+        url('Aller-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LMRomanDemi10';
+    src: url('LMRomanDemi10-Regular.woff2') format('woff2'),
+        url('LMRomanDemi10-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LMRomanSlant10';
+    src: url('LMRomanSlant10-Bold.woff2') format('woff2'),
+        url('LMRomanSlant10-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LMRomanDemi10';
+    src: url('LMRomanDemi10-Oblique.woff2') format('woff2'),
+        url('LMRomanDemi10-Oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LMRomanCaps10';
+    src: url('LMRomanCaps10-Oblique.woff2') format('woff2'),
+        url('LMRomanCaps10-Oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LMRomanDunh10';
+    src: url('LMRomanDunh10-Regular.woff2') format('woff2'),
+        url('LMRomanDunh10-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LMRomanDunh10';
+    src: url('LMRomanDunh10-Oblique.woff2') format('woff2'),
+        url('LMRomanDunh10-Oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LMRoman10';
+    src: url('LMRoman10-Regular.woff2') format('woff2'),
+        url('LMRoman10-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LMRomanCaps10';
+    src: url('LMRomanCaps10-Regular.woff2') format('woff2'),
+        url('LMRomanCaps10-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LMRomanSlant10';
+    src: url('LMRomanSlant10-Regular.woff2') format('woff2'),
+        url('LMRomanSlant10-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LMRoman10';
+    src: url('LMRoman10-Italic.woff2') format('woff2'),
+        url('LMRoman10-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
     font-display: swap;
 }
 
