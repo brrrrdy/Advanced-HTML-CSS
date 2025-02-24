@@ -1,8 +1,26 @@
 @font-face {
-    font-family: 'Abril Fatface';
-    src: url('AbrilFatface-Regular.woff2') format('woff2'),
-        url('AbrilFatface-Regular.woff') format('woff');
+    font-family: 'Alef';
+    src: url('Alef-Bold.woff2') format('woff2'),
+        url('Alef-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alef';
+    src: url('Alef-Regular.woff2') format('woff2'),
+        url('Alef-Regular.woff') format('woff');
     font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amagro';
+    src: url('Amagro-bold.woff2') format('woff2'),
+        url('Amagro-bold.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
