@@ -48,3 +48,38 @@ footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+@font-face {
+  font-family: "Aller";
+  src: url("fonts/Aller.woff2") format("woff2"),
+    url("fonts/Aller.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMRoman10";
+  src: url("fonts/LMRoman10-Regular.woff2") format("woff2"),
+    url("fonts/LMRoman10-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  font-size: 10px;
+}
+
+h1,
+h2 {
+  font-family: "LMRoman10", sans-serif;
+  font-size: 3rem;
+}
+
+p,
+ul,
+ol {
+  font-family: "aller", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
