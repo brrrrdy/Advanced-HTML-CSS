@@ -1,17 +1,28 @@
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-/* Add styles here */
-
-h1 {
-  color: blue;
+.container p:first-child {
+  font-size: 150%;
 }
 
-h2 {
-  background-color: blue;
-  color: white;
+.container p:first-child::first-line {
+  color: red;
 }
 
-span {
-  font-size: 200%;
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: #333;
+  color: #fff;
 }
